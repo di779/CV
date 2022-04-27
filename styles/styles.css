@@ -26,15 +26,17 @@ a:visited{
 }
 .photo{
     margin-top: 50px;
-    width: 500px;
-    border-radius: 50%;
-    box-shadow: 4px 4px 14px rgb(54, 40, 48);
+    width: 300px;
+    border-radius: 20%;
+    box-shadow: 4px 4px 14px rgb(146, 150, 93);
     margin-right: 50px;
+    margin-bottom: 30px;
 }
 .info {
     color:rgb(104, 89, 89);
     display: flex;
-
+    justify-content:center;
+}
 }
 .info-text {
     margin-top: 50px;
@@ -42,16 +44,21 @@ a:visited{
     text-align: end;
 }
 .info-text p{
-    font-size: 20px;
+    font-size: 14px;
     font-style: italic;
     margin-top: 20px;
 }
 .info-text h4{
-    font-size: 25px;
+    font-size: 18px;
     color:#967143;
 }
 .social-network h4{
     margin-bottom: 10px;
+   
+}
+.social-network {
+    margin-left: 400px;
+
 }
 h1{
     font-size: 50px;
@@ -62,7 +69,7 @@ h1{
     color: #af6a16;
 }
 h2{
-    font-size: 40px;
+    font-size: 20px;
     font-style: 'Libre Bodoni';
     color: goldenrod;
 }
@@ -83,21 +90,30 @@ h2{
     list-style-type: none;
 }
 .hobbies ol{
-    font-size: 30px;
+    font-size: 14px;
     color: #696969;
 }
 .characteristic{
     background-color:#e6d579 ;
     margin-left: 150px;
+    justify-content: center;
+
 }
 .characteristic h2,ul{
     list-style-type:circle;
-    padding-left: 160px;
+    padding-left: 130px;
+   
+    
+}
+.characteristic h2{
+   padding-left: 220px;
 }
 .characteristic ul{
-    font-size: 30px;
+    font-size: 14px;
     color: #696969;
-    padding-left: 200px;
+    column-count: 2;
+
+    
 }
 .work{
     background-color:#e6ddab ;
@@ -110,7 +126,7 @@ h2{
 }
 .table-work{
     width:100%;
-    font-size: 25px;
+    font-size: 14px;
     margin-bottom: 50px;
     
 }
